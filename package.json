@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/arr-insertion-sort-numeric",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "Sorting by insertion - Look for bigger numbers on the left side. Runtime: O(n^2). It starts from the 2nd element, and it tries to find any element (to the left) that could be bigger than the current index. It will move all the elements that are bigger and insert the current element where it belongs.",
    "main": "dist/arr-insertion-sort-numeric.umd.js",
    "module": "dist/arr-insertion-sort-numeric.esm.js",
@@ -51,7 +51,7 @@
    },
    "devDependencies": {
       "babel-core": "^6.26.3",
-      "babel-jest": "^25.4.0",
+      "babel-jest": "^25.5.1",
       "babel-preset-env": "^1.7.0",
       "documentation": "^12.3.0",
       "esm": "^3.2.25",
